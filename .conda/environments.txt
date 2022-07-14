@@ -1,0 +1,7 @@
+/home/samer/anaconda3
+/home/samer/anaconda3/envs/webApp1
+/home/samer/anaconda3/envs/dataPlay
+/home/samer/anaconda3/envs/datascience
+/home/samer/anaconda3/envs/MachineLearning
+/home/samer/anaconda3/envs/webScrape
+/home/samer/anaconda3/envs/devops

@@ -1,0 +1,12 @@
+{
+	"redhat.vscode-yaml-0.11.1": true,
+	"ms-python.python-2021.9.1191016588": true,
+	"ms-vscode.js-debug-companion-1.0.17": true,
+	"ms-azuretools.vscode-docker-1.22.0": true,
+	"redhat.vscode-yaml-1.8.0": true,
+	"graphql.vscode-graphql-0.4.15": true,
+	"ms-vscode-remote.remote-ssh-0.82.1": true,
+	"nrwl.angular-console-17.18.7": true,
+	"ms-toolsai.jupyter-2022.6.1001902341": true,
+	"vscode-icons-team.vscode-icons-11.12.0": true
+}
