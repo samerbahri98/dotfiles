@@ -16,6 +16,8 @@ ln -s ~/.dotfiles/.bashrc ~/
 
 ln -s ~/.dotfiles/.zprofile ~/
 
+ln -s ~/.dotfiles/.zshenv ~/
+
 ln -s ~/.dotfiles/.vscode ~/
 
 ln -s ~/.dotfiles/.conda ~/
