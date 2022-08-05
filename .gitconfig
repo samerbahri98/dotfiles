@@ -1,7 +1,6 @@
 [user]
-	mail = samer.bahi@thebahrimedia.com
-	name = samer bahri
-	email = samer.bahi@thebahrimedia.com
+	name = samerbahri98
+	email = samer.bahri@thebahrimedia.com
 	signingkey = samer.bahri@thebahrimedia.com
 [filesystem "AdoptOpenJDK|11.0.6|/dev/sda1"]
 	timestampResolution = 11000 nanoseconds
