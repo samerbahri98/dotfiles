@@ -5,3 +5,4 @@
 /home/samer/anaconda3/envs/MachineLearning
 /home/samer/anaconda3/envs/webScrape
 /home/samer/anaconda3/envs/devops
+/home/samer/anaconda3/envs/ansible

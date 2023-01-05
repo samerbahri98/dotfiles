@@ -11,3 +11,7 @@
 	gpgSign = true
 [gpg]
 	program = gpg
+[safe]
+	directory = /home/jenkins/agent/workspace/Mock-MLOps/Mock-Change
+[init]
+	defaultBranch = main

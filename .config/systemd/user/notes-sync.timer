@@ -1,0 +1,10 @@
+[Unit]
+Description=sync notes to git
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=60min
+
+[Install]
+WantedBy=timers.target
+

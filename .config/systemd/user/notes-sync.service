@@ -1,0 +1,9 @@
+[Unit]
+Description=sync changes to git
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/sync_notes.sh
+
+[Install]
+WantedBy=default.target
