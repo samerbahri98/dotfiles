@@ -3,7 +3,7 @@ Description=sync notes to git
 
 [Timer]
 OnBootSec=3min
-OnUnitActiveSec=30min
+OnCalendar=hourly
 Unit=sync-to-git.target
 
 [Install]
