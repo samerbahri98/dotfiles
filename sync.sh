@@ -24,14 +24,14 @@ ln -s ~/.dotfiles/.conda ~/
 
 mkdir -p ~/.config/systemd/user/ 
 
-ln -s ~/.dotfiles/.config/systemd/user/ssh-agent.service ~/.config/systemd/user/ssh-agent.service
-ln -s ~/.dotfiles/.config/systemd/user/notes-sync.service ~/.config/systemd/user/notes-sync.service
-ln -s ~/.dotfiles/.config/systemd/user/notes-sync.timer ~/.config/systemd/user/notes-sync.timer
+for FILE in ~/.dotfiles/.config/systemd/user/*;
+    do ln -s $FILE ~/.config/systemd/user/$(basename $FILE);
+    done
 
-ln -s ~/.dotfiles/.local/bin/sync_notes.sh ~/.local/bin/sync_notes.sh
+ln -s ~/.dotfiles/.local/bin/sync_to_git.sh ~/.local/bin/sync_to_git.sh
 
 systemctl --user enable ssh-agent
 systemctl --user start ssh-agent
-systemctl --user enable notes-sync.timer
-systemctl --user start notes-sync.timer
+systemctl --user enable sync-to-git.timer
+systemctl --user start sync-to-git.timer
 

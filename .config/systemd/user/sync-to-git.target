@@ -1,0 +1,7 @@
+[Unit]
+Description=sync changes to git
+Wants=sync-notes.service sync-dotfiles.service
+After=sync-notes.service sync-dotfiles.service
+
+[Install]
+Also=sync-to-git.timer

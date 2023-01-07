@@ -1,0 +1,10 @@
+[Unit]
+Description=sync notes to git
+PartOf=sync-to-git.service
+
+[Service]
+ExecStart=%h/.local/bin/sync_to_git.sh
+WorkingDirectory=%h/Notes
+
+[Install]
+Also=sync-to-git.timer

@@ -2,8 +2,9 @@
 Description=sync notes to git
 
 [Timer]
-OnBootSec=5min
-OnUnitActiveSec=60min
+OnBootSec=3min
+OnUnitActiveSec=30min
+Unit=sync-to-git.target
 
 [Install]
 WantedBy=timers.target
