@@ -109,4 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
+prompt_dir(){
+  prompt_segment blue $CURRENT_FG '%2~'
+}
