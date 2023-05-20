@@ -6,3 +6,4 @@
 /home/samer/anaconda3/envs/webScrape
 /home/samer/anaconda3/envs/devops
 /home/samer/anaconda3/envs/ansible
+/home/samer/anaconda3/envs/tf
