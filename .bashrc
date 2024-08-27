@@ -120,3 +120,10 @@ fi
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
+source <(kubectl completion bash)
+alias k=kubectl
+complete -F __start_kubectl k
+
+# >>>> Vagrant command completion (start)
+. /opt/vagrant/embedded/gems/gems/vagrant-2.4.0/contrib/bash/completion.sh
+# <<<<  Vagrant command completion (end)

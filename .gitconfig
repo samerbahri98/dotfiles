@@ -6,7 +6,7 @@
 	timestampResolution = 11000 nanoseconds
 	minRacyThreshold = 5576 microseconds
 [commit]
-	gpgsign = true
+	gpgsign = false
 [tag]
 	gpgSign = true
 [gpg]

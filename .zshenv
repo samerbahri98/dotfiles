@@ -35,5 +35,4 @@ else
 fi
 unset __conda_setup
 
-neofetch
 . "$HOME/.cargo/env"
